@@ -1,0 +1,234 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #f64400 !important;
+}
+
+.user_card{
+	min-height: 400px;
+	width: 350px;
+	margin-top: auto;
+	margin-bottom: auto;
+	background: #fff;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.57), 0 6px 20px 0 rgba(0, 0, 0, 0.57);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.57), 0 6px 20px 0 rgba(0, 0, 0, 0.57);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.57), 0 6px 20px 0 rgba(0, 0, 0, 0.57);
+	border-radius: 5px;
+}
+.bloco_calendario{
+	width: 800px;
+}
+
+.brand_logo_container{
+	position: absolute;
+	height: 170px;
+	width: 170px;
+	top: -75px;
+	border-radius: 50%;
+	background: #fff;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 -6px 10px -6px;
+	-webkit-box-shadow: 0 -6px 10px -6px;
+	-moz-box-shadow: 0 -6px 10px -6px;
+}
+
+.brand_logo{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.form_container{
+	margin-top: 100px;
+}
+
+.login_btn{
+	width: 100%;
+	background: #000 !important;
+	color: white !important;
+}
+
+.login_btn:focus{
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.login_container{
+	padding: 0 3rem;
+}
+
+.input-group-text{
+	background: #000 !important;
+	color: white !important;
+	border: 0 !important;
+	border-radius: 0.24rem 0 0 0.25rem !important;
+	width: 40px;
+	height: 40px;
+}
+.form-control{
+	border: 0px;
+}
+
+.inputshow{
+	background: #fff !important;
+	border-radius: 0 0.25rem 0.25rem 0 !important;
+	color: #000000a3 !important;
+	border: 2px solid #f64400 !important;
+	border-left: 0px !important;
+}
+
+.input_config{
+	margin-left: 0px !important;
+}
+
+.input_user, .input_pass {
+	border: 2px solid #f64400;
+    border-left: 0px;
+}
+
+.input_pass {
+	border-right: 0px;
+}
+
+.input_user,.input_pass:focus{
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+	background: #c0392b !important;
+}
+
+a {
+	color: #f64400;
+}
+
+a:hover {
+	color: #f64400;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#000;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	z-index:1000;
+	animation: bot-to-top 2s ease-out;
+}
+
+ul{
+	position:fixed;
+	right:40px;
+	padding-bottom:20px;
+	bottom:80px;
+	z-index:100;
+}
+
+ul li{
+	list-style:none;
+	margin-bottom:10px;
+}
+
+ul li a{
+	background-color:#000;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	width:60px;
+	height:60px;
+	display:block;
+}
+
+ul:hover{
+	visibility:visible!important;
+	opacity:1!important;
+}
+
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+a#menu-share + ul{
+  visibility: hidden;
+}
+
+
+@keyframes bot-to-top {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}
+
+@keyframes scale-in {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;}
+}
+
+@keyframes rotate-in {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate-out {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+@media screen and (max-width: 500px){
+	.modal-content{
+		width: 80% !important;
+	}
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
