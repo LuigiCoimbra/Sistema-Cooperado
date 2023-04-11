@@ -5,12 +5,11 @@ Sistema elaborado para funcionar como uma rede interna
 
 ## Project setup
 ```
-Instalar XAMPP ou WAMPServer para servir a aplicação
+cd Sistema-Cooperado
 ```
-[XAMPP](https://www.apachefriends.org/download.html)
-
-[WAMPServer](https://www.wampserver.com/en/)
-
+```
+php -S localhost:8000
+```
 
 ### Configuração
 ```
