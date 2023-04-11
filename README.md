@@ -7,9 +7,9 @@ Sistema elaborado para funcionar como uma rede interna
 ```
 Instalar XAMPP ou WAMPServer para servir a aplicação
 ```
-XAMPP: https://www.apachefriends.org/download.html
+[XAMPP](https://www.apachefriends.org/download.html)
 
-WAMPServer: https://www.wampserver.com/en/
+[WAMPServer](https://www.wampserver.com/en/)
 
 
 ### Configuração
